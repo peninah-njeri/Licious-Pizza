@@ -5,56 +5,17 @@ body{
 }
 .container{
     opacity: 0.8
+
 }
 .block{
     padding-top: 60px
 }
 
+.order{
+    background-color: black
+}
     
 
-/* .jumbotron {
-    text-align: center;
-    background-color: grey;
-  }
-  h1 {
-    text-align: center;
-  }
-  body {
-    align-items: left;
-    padding: 10px;
-  }
-  radio {
-    margin-right: 5px;
-    padding-right: 15px;
-  }
-  select {
-    font-size: 25px;
-    align-content: center;
-    margin-top: 10px;
-  }
-  #pop {
-    size: 800px;
-    height: 800px;
-    width: 800px;
-    margin-bottom: 20px;
-    margin-top: 25px;
-  }
-  p {
-    font-style: normal;
-    font-family: sans-serif;
-  }
-  .btn {
-    border: 10px solid black;
-    background-color: white;
-    color: black;
-    padding: 14px 28px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  label {
-    font-size: 20px;
-  }
-  form {
-    background-color: grey;
-  }
-   */
+
+  
+  
