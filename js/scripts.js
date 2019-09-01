@@ -20,19 +20,19 @@ function peshy(){
   };
   
 //   // User interface
-//   function Charge(size, crust, topping,delivery) {
-//     this.size = size;
-//     this.crust = crust;
-//     this.topping = topping;
-//     this.delivery = delivery
-//     this.price = 0;
-//    }
-//    var totalPrice = [];
+  function Charge(size, crust, topping,delivery) {
+    this.size = size;
+    this.crust = crust;
+    this.topping = topping;
+    this.delivery = delivery
+    this.price = 0;
+   }
+   var totalPrice = [];
   
-//    var pizzaSizes = ["small", "medium", "large"];
-//    var crust = ["Crispy", "Stuffed", "Gluten-free"];
-//    var topping = ["Pepperoni", "Chicken", "Bacon", "Sausage", "Mushrooms"];
-//    var delivery = ["deliver", "dont-deliver"];
+   var pizzaSizes = ["small", "medium", "large"];
+   var crust = ["Crispy", "Stuffed", "Gluten-free"];
+   var topping = ["Pepperoni", "Chicken", "Bacon", "Sausage", "Mushrooms"];
+   var delivery = ["deliver", "dont-deliver"];
   
 //   //  Business logic
 //    Charge.prototype.totalPrice = function () {
