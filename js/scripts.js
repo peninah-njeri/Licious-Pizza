@@ -80,7 +80,7 @@ function peshy(){
   
    $(document).ready(function () {
     $("input#cost").click(function (event) {
-   
+        event.preventDefault();
       var sizes = $("select#PizzaSizes").val();
       var crusts = $("select#crust").val();
       var toppings = $("select#toppings").val();
@@ -94,6 +94,6 @@ function peshy(){
       $("#typ").text("toppings  :" + toppings);
       $("#ty").text("deliver  :" + deliver);
       $("#t").text("total cost  :" + newPrice.totalCost());
-      event.preventDefault();
+      
     });
    });
