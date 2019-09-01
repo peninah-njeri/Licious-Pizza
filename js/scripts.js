@@ -5,19 +5,19 @@ function peshy(){
     var location = document.getElementById("location").value;
   
     // business logic
-//     if (email.length < 10) {
-//       alert("email invalid!");
-//     }
-//     if (name.length < 1 || name.length == 0) {
-//       alert("please enter full name!");
-//     }
-//     if (location.length < 1) {
-//       alert("Please enter a valid location");
-//     }
-//     if (email.length > 10  && name.length > 1 && location.length > 1) {
-//       alert("Dear" + name + " of email: " + email + " from " + location + " we have received your message!")
-//     }
-//   };
+    if (email.length < 10) {
+      alert("email invalid!");
+    }
+    if (name.length < 1 || name.length == 0) {
+      alert("please enter full name!");
+    }
+    if (location.length < 1) {
+      alert("Please enter a valid location");
+    }
+    if (email.length > 10  && name.length > 1 && location.length > 1) {
+      alert("Dear" + name + " of email: " + email + " from " + location + " we have received your message!")
+    }
+  };
   
 //   // User interface
 //   function Charge(size, crust, topping,delivery) {
