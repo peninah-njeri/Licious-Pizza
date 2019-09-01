@@ -15,7 +15,7 @@ function peshy(){
       alert("Please enter a valid location");
     }
     if (email.length > 10  && name.length > 1 && location.length > 1) {
-      alert("Dear" + name + " of email: " + email + " from " + location + " we have received your message!")
+      alert("Dear" +  name + "of email: " + email +  " from " + location + " we have received your order and its being worked on!")
     }
   };
   
@@ -80,7 +80,7 @@ function peshy(){
   
    $(document).ready(function () {
     $("input#cost").click(function (event) {
-      event.preventDefault();
+   
       var sizes = $("select#PizzaSizes").val();
       var crusts = $("select#crust").val();
       var toppings = $("select#toppings").val();
@@ -94,5 +94,6 @@ function peshy(){
       $("#typ").text("toppings  :" + toppings);
       $("#ty").text("deliver  :" + deliver);
       $("#t").text("total cost  :" + newPrice.totalCost());
+      event.preventDefault();
     });
    });
