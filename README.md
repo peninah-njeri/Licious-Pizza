@@ -12,9 +12,9 @@ This application has been created to help people order different sizes of pizza,
 ## BDD
 | Behavior Our program should handle             | Input Example When it Receives | Output Example When it Receives     |
 |------------------------------------------------|--------------------------------|-------------------------------------|
-| User required to enters invalid name and email in the form | click on photo         | name and email invalid              |
-| User required to enters valid mail and email in the form   |  | name and email valid                |
-| User required to enter the type of pizza, toppings and  crust      | Receives a message of the price of all the orders made |
+| User required to enters pizza size | Choose a desirable size from the options       |             |
+| User required to enters a topping of choice   | Choose a desirable topping from the options  |                |
+| User required to enter crust type and also if delivery is required, fill the address form |
 ## Dependancies
 1. Page layout is depending on bootstrap and css
 2. The project fonctionality is depending on jQuery and DOM managment at side of html 
