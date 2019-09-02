@@ -12,8 +12,8 @@ This application has been created to help people order different sizes of pizza,
 ## BDD
 | Behavior Our program should handle             | Input Example When it Receives | Output Example When it Receives     |
 |------------------------------------------------|--------------------------------|-------------------------------------|
-| User required to enters pizza size | Choose a desirable size from the options       |             |
-| User required to enters a topping of choice   | Choose a desirable topping from the options  |                |
+| User required to enters pizza size | Choose a desirable size from the options       |  large           |
+| User required to enters a topping of choice   | Choose a desirable topping from the options  |   pepperoni             |
 | User required to enter crust type and also if delivery is required, fill the address form |
 ## Dependancies
 1. Page layout is depending on bootstrap and css
