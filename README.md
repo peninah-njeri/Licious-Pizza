@@ -7,7 +7,7 @@ This application has been created to help people order different sizes of pizza,
 1. I have first initialized git to my local depository using:$ git init
 2. connect to GitHub repository using:$ git remote https://github.com/peninah-njeri/Licious-Pizza
 3. Deploy project link to GitHub repository using: git push origin gh-pages
-4. To visit the website use the link: https://peninah-njeri.github.io/Licious-pizza/
+4. To visit the website use the link: https://peninah-njeri.github.io/Licious-Pizza/
 5. I do create also javascript folder containing jQuery framework and local one to interact with html for both input and output the result.
 ## BDD
 | Behavior Our program should handle             | Input Example When it Receives | Output Example When it Receives     |
